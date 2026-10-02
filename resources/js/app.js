@@ -87,11 +87,11 @@ function initTypewriter() {
     if (!el) return;
 
     const words = [
-        'Full Stack Developer',
-        'Laravel Expert',
-        'Backend Engineer',
-        'API Developer',
-        'Problem Solver',
+        'Desarrollador Web Junior',
+        'PHP & Laravel',
+        'HTML · CSS · JavaScript',
+        'DAW + DAM',
+        'Buscando prácticas',
     ];
     let wIdx = 0, cIdx = 0, del = false;
 
@@ -228,13 +228,14 @@ window.handleContactForm = async (e) => {
     const btnText = document.getElementById('btn-text');
     const msgDiv  = document.getElementById('form-message');
 
-    btnText.textContent = 'Enviando...';
+    // No hay backend de correo: se abre el cliente de email del visitante con el mensaje ya escrito
+    const f = new FormData(e.target);
+    const body = `${f.get('message')}\n\n${f.get('name')} <${f.get('email')}>`;
+    window.location.href = `mailto:secafer06@gmail.com?subject=${encodeURIComponent(f.get('subject'))}&body=${encodeURIComponent(body)}`;
     btn.disabled = true;
 
-    await new Promise(r => setTimeout(r, 1500));
-
     msgDiv.className = 'text-center text-sm py-3 rounded-xl bg-green-500/10 text-green-400 border border-green-500/20';
-    msgDiv.textContent = '✅ ¡Mensaje enviado! Te responderé lo antes posible.';
+    msgDiv.textContent = '✉️ Se ha abierto tu programa de correo con el mensaje listo para enviar.';
     e.target.reset();
     btnText.textContent = 'Enviar mensaje';
     btn.disabled = false;
