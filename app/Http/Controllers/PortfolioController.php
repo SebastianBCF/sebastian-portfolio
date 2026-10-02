@@ -73,11 +73,18 @@ class PortfolioController extends Controller
                 'tags'     => ['HTML5', 'CSS3', 'JavaScript', 'SEO'],
             ],
             [
-                'role'     => 'CFGS Desarrollo de Aplicaciones Web + Multiplataforma',
+                'role'     => 'CFGS Desarrollo de Aplicaciones Multiplataforma (DAM) — Titulado',
                 'company'  => 'Instituto FOC · Granada',
                 'period'   => '2024 — 2026',
-                'desc'     => 'Doble titulación DAW + DAM: desarrollo web cliente y servidor, bases de datos relacionales y NoSQL, programación en Java, despliegue de aplicaciones y entornos de desarrollo.',
-                'tags'     => ['PHP', 'Java', 'SQL', 'Docker'],
+                'desc'     => 'Programación en Java, bases de datos relacionales y NoSQL, desarrollo de interfaces y aplicaciones multiplataforma.',
+                'tags'     => ['Java', 'SQL', 'MongoDB'],
+            ],
+            [
+                'role'     => 'CFGS Desarrollo de Aplicaciones Web (DAW) — En curso',
+                'company'  => 'Instituto FOC · Granada',
+                'period'   => 'Pendiente de prácticas FCT',
+                'desc'     => 'Desarrollo web en entorno cliente y servidor, despliegue de aplicaciones web y diseño de interfaces. Solo me faltan las prácticas para titularme.',
+                'tags'     => ['PHP', 'JavaScript', 'Docker'],
             ],
         ];
 

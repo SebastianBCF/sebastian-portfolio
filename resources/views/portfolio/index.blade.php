@@ -46,7 +46,7 @@
         {{-- Description --}}
         <p class="text-base md:text-lg text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed"
            style="animation: fadeUp 0.7s 0.5s both;">
-            Desarrollador web junior con doble titulación <span class="text-slate-200 font-medium">DAW + DAM</span>.
+            Desarrollador web junior, <span class="text-slate-200 font-medium">Técnico Superior en DAM</span> y terminando DAW.
             Construyo aplicaciones web con Laravel, PHP, JavaScript y Tailwind CSS,
             cuidando la accesibilidad y el código limpio.
         </p>
@@ -135,21 +135,22 @@
                     Hola, soy <span class="gradient-text">Sebastian</span> 👋
                 </h2>
                 <p class="text-slate-400 text-base leading-relaxed mb-4">
-                    Soy desarrollador web junior, formado en el Instituto FOC de Granada con la doble titulación
-                    de Desarrollo de Aplicaciones Web y Multiplataforma. Trabajo sobre todo con
+                    Soy desarrollador web junior y Técnico Superior en Desarrollo de Aplicaciones Multiplataforma
+                    por el Instituto FOC de Granada, donde estoy terminando también Desarrollo de Aplicaciones Web
+                    (solo me faltan las prácticas). Trabajo sobre todo con
                     <span class="text-indigo-400 font-medium">Laravel, PHP y JavaScript</span>, y he hecho prácticas
                     desarrollando webs para clientes reales en una agencia de marketing.
                 </p>
                 <p class="text-slate-400 text-base leading-relaxed mb-8">
                     Mi proyecto más completo es Zampa, un SaaS para restaurantes hecho en equipo con Laravel 12,
                     con carta por QR, panel de cocina en tiempo real y un chatbot con IA. Ahora busco
-                    <span class="text-cyan-400 font-medium">prácticas o mi primer empleo</span> en Granada o en remoto.
+                    <span class="text-cyan-400 font-medium">prácticas de DAW o mi primer empleo</span> en Granada o en remoto.
                 </p>
 
                 {{-- Facts --}}
                 <div class="grid grid-cols-2 gap-3 mb-8">
                     @foreach([
-                        ['🎓', 'CFGS DAW + DAM'],
+                        ['🎓', 'Técnico Superior en DAM'],
                         ['📍', 'Granada, España'],
                         ['💼', 'Desarrollador Web Junior'],
                         ['🌐', 'Español / Inglés B2'],

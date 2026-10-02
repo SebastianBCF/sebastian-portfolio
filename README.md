@@ -1,6 +1,6 @@
 # Portfolio — Sebastian Campos Fernandez
 
-Portfolio personal de **Sebastian Campos Fernandez**, desarrollador web junior (CFGS DAW + DAM, Instituto FOC, Granada).
+Portfolio personal de **Sebastian Campos Fernandez**, desarrollador web junior (Técnico Superior en DAM y terminando DAW en el Instituto FOC, Granada).
 
 Es una web de una sola página hecha con **Laravel 12**, **Blade** y **Tailwind CSS 4**, con estas secciones:
 
